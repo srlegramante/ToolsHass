@@ -33,7 +33,7 @@ Este projeto utiliza diversas bibliotecas para expandir suas funcionalidades:
 - virtualenv==20.26.2
 - Estrutura do Código
 
-## O código foi desenvolvido com uma estrutura limpa e compreensível, embora ainda haja espaço para melhorias. Este é um projeto em andamento, com planos para atualizações futuras que adicionarão novas funcionalidades e aperfeiçoarão as existentes.
+O código foi desenvolvido com uma estrutura limpa e compreensível, embora ainda haja espaço para melhorias. Este é um projeto em andamento, com planos para atualizações futuras que adicionarão novas funcionalidades e aperfeiçoarão as existentes.
 
 ## Contribuição
 
@@ -41,3 +41,38 @@ Este projeto teve contribuições em diversas áreas, especialmente no uso de bi
 
 ## Instalação
 Para instalar e executar o projeto, siga os passos abaixo:
+
+1. Clone este repositório:
+   ```sh
+   cd seu_repositorio
+
+2. Navegue até o diretório do projeto:
+   ```sh
+   git clone https://github.com/seu_usuario/seu_repositorio.git
+
+3. Crie um ambiente virtual:
+   ```sh
+   python -m venv venv
+   
+4. Ative o ambiente virtual:
+- No windows:
+   ```sh
+   venv\Scripts\activate
+- No Linux/MacOS:
+  ```sh
+  source venv/bin/activate
+  
+5. Instale as dependências:
+   ```sh
+   pip install -r requirements.txt
+
+6. Execute o software:
+    ```sh
+    python main.py
+
+## Futuras Atualizações
+Planejamos incluir mais funcionalidades e melhorar a usabilidade do software com o tempo. Fique atento às atualizações no repositório!
+
+## Licença
+Este projeto está sob a licença [copyright ©]. Consulte o arquivo LICENSE para obter mais informações.
+
