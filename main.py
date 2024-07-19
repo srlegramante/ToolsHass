@@ -148,7 +148,7 @@ choice = int(input('''
 [2] = Cryptography
 [3] = WiFi information Local
 [4] = Ethernet Windows Info
-[5] = Ethernet Linux info            
+[5] = Ethernet & wifi Linux info            
 [6] = Exit
                    
 Escolha uma opção: '''))
@@ -198,6 +198,7 @@ Qual o comando do seu sistema operacional?: '''))
                     print(result.stdout)
 
                 get_ethernet_info()
+                get_wifi_info()
                 break
             elif ask == 2:
                 import subprocess
@@ -207,6 +208,7 @@ Qual o comando do seu sistema operacional?: '''))
                     print(result.stdout)
 
                 get_ethernet_info()
+                get_wifi_info()
                 break
             elif ask == 3:
                 sys.exit()
@@ -218,3 +220,4 @@ Qual o comando do seu sistema operacional?: '''))
         sys.exit()
     else:
         print("Por favor digite uma opção valida.")
+        break
