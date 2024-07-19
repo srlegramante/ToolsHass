@@ -189,7 +189,7 @@ while end == False:
                             
 [3] = Sair
 Qual o comando do seu sistema operacional?: '''))
-
+            print('')
             if ask == 1:
                 import subprocess
 
